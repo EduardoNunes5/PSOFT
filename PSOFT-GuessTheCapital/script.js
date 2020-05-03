@@ -5,7 +5,7 @@ let states,
 
 
 function startGame(){
-	fetch("https://github.com/EduardoNunes5/PSOFT/estados.json")
+	fetch("https://github.com/EduardoNunes5/PSOFT/blob/master/estados.json")
 	.then(resolve => resolve.json())
 	.then(statesJson => {
 		states = statesJson;
