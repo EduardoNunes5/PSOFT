@@ -5,7 +5,7 @@ let states,
 
 
 function startGame(){
-	fetch("raw.githubusercontent.com/EduardoNunes5/PSOFT/master/PSOFT-GuessTheCapital/estados.json")
+	fetch("https://raw.githubusercontent.com/EduardoNunes5/PSOFT/master/PSOFT-GuessTheCapital/estados.json")
 	.then(resolve => resolve.json())
 	.then(statesJson => {
 		states = statesJson;
