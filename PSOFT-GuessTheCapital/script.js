@@ -4,7 +4,8 @@ let states,
 	$score = document.querySelector('#score');
 
 
-function startGame(){fetch("https://eduardonunes5.github.io/PSOFT-GuessTheCapital/file.json")
+function startGame(){
+	fetch("https://github.com/EduardoNunes5/PSOFT/blob/master/PSOFT-GuessTheCapital/file.json")
 	.then(resolve => resolve.json())
 	.then(statesJson => {
 		states = statesJson;
