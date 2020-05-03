@@ -10,7 +10,7 @@ threaded, e servidor de eco. Foram criandos ambos clientes e servidores. Objetiv
 Temperature-converter
 >projeto usando HTML e JavaScript para calcular a temperatura dada em Celsius pelo usuário para Kelvin e Fahrenheit respectivamente. O objeto do projeto é praticar a manipulação da dom com o JavaScript  
 
-link: (Temperature Converter)[https://eduardonunes5.github.io/PSOFT/temperature-converter/index.html]
+(Temperature Converter)[https://eduardonunes5.github.io/PSOFT/temperature-converter/index.html]
 
 
 Guess the capital
