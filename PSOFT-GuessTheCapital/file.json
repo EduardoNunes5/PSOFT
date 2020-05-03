@@ -1,0 +1,31 @@
+{
+    "estados": [
+        {"nome": "Acre", "sigla": "AC", "capital": "Rio Branco"},
+        {"nome": "Alagoas", "sigla": "AL", "capital": "Maceió"},
+        {"nome": "Amapá", "sigla": "AP", "capital": "Macapá"},
+        {"nome": "Amazonas", "sigla": "AM", "capital": "Manaus"},
+        {"nome": "Bahia", "sigla": "BA", "capital": "Salvador"},
+        {"nome": "Ceará", "sigla": "CE", "capital": "Fortaleza"},
+        {"nome": "Distrito Federal", "sigla": "DF", "capital": "Brasília"},
+        {"nome": "Espírito Santo", "sigla": "ES", "capital": "Vitória"},
+        {"nome": "Goiás", "sigla": "GO", "capital": "Goiânia"},
+        {"nome": "Maranhão", "sigla": "MA", "capital": "São Luís"},
+        {"nome": "Mato Grosso", "sigla": "MT", "capital": "Cuiabá"},
+        {"nome": "Mato Grosso do Sul", "sigla": "MS", "capital": "Campo Grande"},
+        {"nome": "Minas Gerais", "sigla": "MG", "capital": "Belo Horizonte"},
+        {"nome": "Pará", "sigla": "PA", "capital": "Belém"},
+        {"nome": "Paraíba", "sigla": "PB", "capital": "João Pessoa"},
+        {"nome": "Paraná", "sigla": "PR", "capital": "Curitiba"},
+        {"nome": "Pernambuco", "sigla": "PE", "capital": "Recife"},
+        {"nome": "Piauí", "sigla": "PI", "capital": "Teresina"},
+        {"nome": "Rio de Janeiro", "sigla": "RJ", "capital": "Rio de Janeiro"},
+        {"nome": "Rio Grande do Norte", "sigla": "RN", "capital": "Natal"},
+        {"nome": "Rio Grande do Sul", "sigla": "RS", "capital": "Porto Alegre"},
+        {"nome": "Rondônia", "sigla": "RO", "capital": "Porto Velho"},
+        {"nome": "Roraima", "sigla": "RR", "capital": "Boa Vista"},
+        {"nome": "Santa Catarina", "sigla": "SC", "capital": "Florianópolis"},
+        {"nome": "São Paulo", "sigla": "SP", "capital": "São Paulo"},
+        {"nome": "Sergipe", "sigla": "SE", "capital": "Aracaju"},
+        {"nome": "Tocantins", "sigla": "TO", "capital": "Palmas"}
+    ]
+}
