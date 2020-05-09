@@ -1,5 +1,5 @@
-import { render, clear} from '/renderizador.js'
-import { getPiadaAleatoria } from '/piadas.js'
+import { render, clear} from './renderizador.js'
+import { getPiadaAleatoria } from './piadas.js'
 
 let $button = document.querySelector('#jokeButton'),
     $joke = document.querySelector('#joke'),
