@@ -13,4 +13,4 @@ async function getPiadaAleatoria(){
 
 }
 
-export getPiadaAleatorias;
+export getPiadaAleatoria;

@@ -16,4 +16,4 @@ function clear(element){
     }
 }
 
-export render, clear;
+export { render, clear} ;
