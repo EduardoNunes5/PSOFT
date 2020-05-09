@@ -13,7 +13,9 @@ link: [Temperature Converter](https://eduardonunes5.github.io/PSOFT/temperature-
 
 
 Guess the capital
-> projeto usando HTML e JavaScript, em que é perguntado ao usuário a capital de respectivos estados de maneira randômica. O objetivo do projeto é praticar não só a manipulação da DOM com JS, mas também revisar conceitos de programação assíncrona com uso de fetch (feita requisição de json com os estados brasileiros e respectivas capitais).  
+> projeto usando HTML e JavaScript, em que é perguntado ao usuário a capital de respectivos estados de maneira randômica. O objetivo do projeto é praticar não só a manipulação da DOM com JS, mas também revisar conceitos de programação assíncrona com uso de fetch (feita requisição de json com os estados brasileiros e respectivas capitais). Obs.: os estados não se repetem.  
 link: [Guess the capital](https://eduardonunes5.github.io/PSOFT/PSOFT-GuessTheCapital/index.html)
 
-
+Joke
+> outro projeto utilizando HTML e JavaScript. O aplicativo atualiza a piada mostrada na tela cada vez que o usuário clica em um botão específico. Obs.: As piadas podem se repetidas.  
+link: [Joke](https://eduardonunes5.github.io/PSOFT/Joke/index.html)
