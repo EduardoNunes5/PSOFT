@@ -1,14 +1,12 @@
-function getPiadas(){
+export function getPiadaAleatoria(){
     return fetch("https://raw.githubusercontent.com/EduardoNunes5/PSOFT/master/Joke/piadas.json")
         .then(response => response.json())
-        .then(json => json.piadas)
+        .then(json => getPiada(json.piadas))
 }
 
 
-export async function getPiadaAleatoria(){
-    var piadas = await getPiadas();
+function getPiada(piadas){
     var index = Math.trunc(Math.random() * piadas.length);
-    return [piadas[index].piada, piada[index].resposta];
-
+    return [piadas[index].piada, piadas[index].resposta];
 
 }
