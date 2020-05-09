@@ -12,14 +12,17 @@ let jokeText;
 let jokeAnswer;
 let firstJoke = true;
 $button.addEventListener('click', function (){
-    joke = getPiadaAleatoria();
-    jokeText = joke[0];
-    jokeAnswer = joke[1];
-    if(!firstJoke){
-        clear($answer);        
-    }
-    firstJoke = false;
-    render(jokeText, $joke);
+    getPiadaAleatoria().then(piada => {
+        jokeText = piada[0];
+        jokeAnswer = piada[1];
+        if(!firstJoke){
+            clear($answer);
+        }
+        firstJoke = false;
+        render(jokeText, $joke);
+
+    } )
+
 });
 
 $answerButton.addEventListener('click', function (){
