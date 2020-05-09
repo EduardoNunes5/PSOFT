@@ -9,5 +9,11 @@ function render(template, element){
 }
 
 
+function clear(element){
+    if(!element) return;
+    else{
+        element.innerHTML = "";
+    }
+}
 
-export render;
+export render, clear;
