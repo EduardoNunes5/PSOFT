@@ -1,5 +1,5 @@
 function getPiadas(){
-    return fetch("https://github.com/EduardoNunes5/PSOFT/blob/master/Joke/piadas.json")
+    return fetch("https://raw.githubusercontent.com/EduardoNunes5/PSOFT/master/Joke/piadas.json")
         .then(response => response.json())
         .then(json => json.piadas)
 }
