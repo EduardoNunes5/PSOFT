@@ -1,4 +1,4 @@
-function render(template, element){
+export function render(template, element){
     if(!element) return;
     if(typeof template === 'function'){
         node.innerHTML = template();
@@ -9,11 +9,9 @@ function render(template, element){
 }
 
 
-function clear(element){
+export function clear(element){
     if(!element) return;
     else{
         element.innerHTML = "";
     }
 }
-
-export { render, clear} ;

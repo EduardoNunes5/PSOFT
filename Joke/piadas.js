@@ -5,12 +5,10 @@ function getPiadas(){
 }
 
 
-async function getPiadaAleatoria(){
+export async function getPiadaAleatoria(){
     var piadas = await getPiadas();
     var index = Math.trunc(Math.random() * piadas.length);
     return [piadas[index].piada, piada[index].resposta];
 
 
 }
-
-export getPiadaAleatoria;
