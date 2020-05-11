@@ -8,7 +8,6 @@ export function render(template, element){
     }
 }
 
-
 export function clear(element){
     if(!element) return;
     else{

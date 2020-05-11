@@ -1,30 +1,30 @@
 import { render, clear} from './renderizador.js'
-import { getPiadaAleatoria } from './piadas.js'
+import { getJson, getJoke } from './jsonHandler.js'
 
-let $button = document.querySelector('#jokeButton'),
+let $switchJoke = document.querySelector('#jokeButton'),
     $joke = document.querySelector('#joke'),
-    $answerButton = document.querySelector('#jokeAnswerButton'),
-    $answer = document.querySelector('#jokeAnswer');
+    $showAnswer = document.querySelector('#jokeAnswerButton'),
+    $answer = document.querySelector('#jokeAnswer'),
+    jokes = getJson(),
+    currentJoke;
 
+(function startApp(){
+    jokes.then(piadas => {
 
-let joke;
-let jokeText;
-let jokeAnswer;
-let firstJoke = true;
-$button.addEventListener('click', function (){
-    getPiadaAleatoria().then(piada => {
-        jokeText = piada[0];
-        jokeAnswer = piada[1];
-        if(!firstJoke){
-            clear($answer);
-        }
-        firstJoke = false;
-        render(jokeText, $joke);
+        currentJoke = getJoke(piadas);
+        render(currentJoke.piada, $joke);
 
-    } )
+        $switchJoke.addEventListener('click', () => {
+            currentJoke = getJoke(piadas);
+            render(currentJoke.piada, $joke);
+            if($answer !== "")
+                clear($answer);
+        });
 
-});
+        $showAnswer.addEventListener('click', () => {
+            render(currentJoke.resposta, $answer)
 
-$answerButton.addEventListener('click', function (){
-    render(jokeAnswer, $answer);
-})
+        })
+    })
+
+}())
