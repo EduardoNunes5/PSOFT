@@ -4,7 +4,7 @@
 ---
 TCP-IP
 >projeto usando a api de sockets de Python para criar chat multi-threaded, single
-threaded, e servidor de eco. Foram criandos ambos clientes e servidores. Objetivo
+threaded, e servidor de eco.
 
 
 Temperature-converter
